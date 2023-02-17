@@ -1936,3 +1936,6 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.17-10.56.36:227][706]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.02.17-11.05.39:146][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
 [2023.02.17-11.05.39:148][837]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.008
+[2023.02.17-11.12.09:374][990]Cmd: SELECT NONE
+[2023.02.17-11.15.39:825][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.02.17-11.15.39:827][469]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.009
