@@ -1939,3 +1939,707 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.17-11.12.09:374][990]Cmd: SELECT NONE
 [2023.02.17-11.15.39:825][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
 [2023.02.17-11.15.39:827][469]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.009
+[2023.02.17-11.23.32:049][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.17-11.23.32:060][902]LogContentBundle: [Container: Gold] Generating Streaming for 0 Content Bundles.
+[2023.02.17-11.23.32:063][902]LogWorldPartition: Display: GenerateStreaming started...
+[2023.02.17-11.23.32:063][902]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.02.17-11.23.32:063][902]LogWorldPartition: Display: GetPartitionedActors took 38 us
+[2023.02.17-11.23.32:185][902]LogWorldPartition: Display: GenerateStreaming took 122 ms
+[2023.02.17-11.23.32:188][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.17-11.23.32:189][902]PIE: New page: PIE session: Gold (17 feb. 2023 13:23:32)
+[2023.02.17-11.23.32:192][902]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.02.17-11.23.32:192][902]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.02.17-11.23.32:192][902]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gold
+[2023.02.17-11.23.32:207][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014751s)
+[2023.02.17-11.23.32:207][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gold.Gold to /Game/UEDPIE_0_Gold.Gold (0.014792s)
+[2023.02.17-11.23.32:207][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.17-11.23.32:208][902]LogAIModule: Creating AISystem for world Gold
+[2023.02.17-11.23.32:208][902]LogWorldPartition: ULevel::OnLevelLoaded(Gold)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.02.17-11.23.32:208][902]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.17-11.23.32:208][902]LogWorldPartition: UWorldPartition::Initialize(Asset=Gold, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.02.17-11.23.32:212][902]LogContentBundle: [Container: Gold] Creating new contrainer.
+[2023.02.17-11.23.32:212][902]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 762 ms)
+[2023.02.17-11.23.32:212][902]LogPlayLevel: PIE: World Init took: (0.004690s)
+[2023.02.17-11.23.32:218][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.02.17-11.23.32:219][902]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.02.17-11.23.32:219][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.17-11.23.32:219][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.17-11.23.32:219][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.17-11.23.32:219][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.17-11.23.32:219][902]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.17-11.23.32:219][902]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.17-11.23.32:219][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.17-11.23.32:219][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.17-11.23.32:219][902]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.17-11.23.32:219][902]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.17-11.23.32:219][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.17-11.23.32:221][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.17-11.23.32:245][902]LogAudioMixer: Display: Using Audio Hardware Device VG27B (NVIDIA High Definition Audio)
+[2023.02.17-11.23.32:245][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.17-11.23.32:245][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.17-11.23.32:245][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.17-11.23.32:246][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.02.17-11.23.32:246][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.02.17-11.23.32:248][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.02.17-11.23.32:248][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.02.17-11.23.32:248][902]LogInit: FAudioDevice initialized.
+[2023.02.17-11.23.32:248][902]LogAudio: Display: Audio Device (ID: 2) registered with world 'Gold'.
+[2023.02.17-11.23.32:252][902]LogLoad: Game class is 'GameModeBase'
+[2023.02.17-11.23.32:253][902]LogWorld: Bringing World /Game/UEDPIE_0_Gold.Gold up for play (max tick rate 0) at 2023.02.17-12.23.32
+[2023.02.17-11.23.32:253][902]LogWorld: Bringing up level for play took: 0.000664
+[2023.02.17-11.23.32:255][902]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.02.17-11.23.32:263][902]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=432.586 Y=-602.689 Z=517.494
+[2023.02.17-11.23.32:264][902]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(40), CellsToLoad(0), CellsToUnload(0)
+[2023.02.17-11.23.32:264][902]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=432.586 Y=-602.689 Z=517.494,P=0.000000 Y=126.201818 R=-0.000000
+[2023.02.17-11.23.32:267][902]LogStreaming: Display: FlushAsyncLoading(-1): 40 QueuedPackages, 0 AsyncPackages
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/TB/9HBUIQZHV6I4NDVM0205ZE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/SR/159NQCXMY2MVDLWDE396GH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/KQ/5NTBLXWTKYK8THHKX2V247.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/JK/PN8Z8I1JS5WILPM6A370IB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/JH/P4Q9W3OAEZ2H6NMJM3PIVH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/E7/5P55EOS9NUVBWRSRUQHFFG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/7P/9VQZNHXFO18A4UZDZKXPAV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/66/LXCGJT890NJL5Y5QYMZSMK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/0L/KXXW0VA2DJA21HGZWWUEPP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/W9/RXCWL0UB60M5AB8XIL3DSD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/W0/674BH3G0T2LNE57IP6LBZE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/RC/XC9QEFH37ELXMK50D9YXQT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/L1/A54JHY8YY6XQXI19P8WLPG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/GK/6UB54MJQ8ZI7HOWNTHH21U.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/C/UV/44J0UP3LA3YGRRWYXTM5QN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/C/PK/99NAITE15D3RSEYRUGTV64.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/C/KF/EIO3Z536E3Q7I1YC4DDNTJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/B/N7/4O6FRF37YDUZQNW7TSCU3Q.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/B/L3/K7PMU23JKKRV7JIWZ4X0VS.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/O6/16NBESWTQ6PVPNQB93O8SE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/MD/R6RYK59PJ8K7CLY0JA1DQ5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/MB/NP9KPJ6AQPN7KROR2XQ0V6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/FN/V7ZMMQZFKKKLKNGYRQIAEJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/CJ/O2TRGQCVVRNGV01W0BC17D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/3N/GBDJFN9IZ8X40WTUKTOBAT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/9/T5/CXH9JORAIAUE99A24MWYX7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/9/SH/MPWNCXYQKP600MP5V4L4X1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/9/8X/UMT7PSNL1BLHZZE2LWFTIN.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/XW/755DTGHXK4LQZ09Y5G7DD3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/LE/6CLPVKHK1FCWSMZK2BZXJB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/HI/OMA27F6ZUM88R5QS4EVHM3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/C8/EKG9JLU3OOIHNHAXH2209Z.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/AH/WLLHSAMR8ARDDUAHP3UTD9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/7/ZE/4LP83XVAV5F432WR77PA04.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/7/20/OCEW041P8X6KOCR36W3815.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/6/Z1/4NWE6IRVEYUMEPUKAF3U6S.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/6/SV/7GWT6G5R4EV14N9MLU09BC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/6/M9/26F9XZJ7M0F9F3K52SEKJ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/6/EK/XNTH4RE9PZJA2J65WFJK9N.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/VZ/15140KZVAXP39733FPC28J.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/V9/S2IV37UFC9K0XFQ3H4V1B6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/JA/UWWD5F96276BW7J2SL7IZG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/BH/WPTAJTCPZV9DF0KN4P3L88.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/2I/ZK9BLJL08YK5KSJHVBLSPR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/X0/QDO0JDX4CXSBVQCRXB2I4F.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/UV/JOGDP3P16FA1WVN9FSOS6C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/OX/3K14JDUJWLSLX1UHY4UWGO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/F2/790M9H93JE69N0DYXMFSX0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/B5/NW17W94H24TNI8Z2VEGMO4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/PS/D795P5EFGCS8RXQAOUTNNE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/K2/RR59EDUXZ4F4XGJCJ4PYVK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/H9/D6UAEADX52NHISZH9QZQQQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/8J/T9AZUU1GZ8PUW0VGN30IG3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/3V/482FXDBTZ6AZXC3BX9KGBS.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/2/AS/I5J1RTTQK2Y3E9FIMFX5JP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/2/18/N3SSWLS3Y60KPXXZFCBOBG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/1/R7/7Q96X3LNSE5CYS0EQYD3FM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/1/46/IE5QN3RYG8FOT4GNYMO6JJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/1/3S/8NY4F0881BBXWFBH8NVMZ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/XN/2LHWVXGSHP8KJ6ZPQJW9A0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/TQ/AW39JJMC62XEF242SVZ05H.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/LU/V1V5S6MK4WVL3K8QYR7YK4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/KH/Y10XTACH0HUBOMIZJ8633N.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:537][902]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/FI/XM8F4XUBWZIXDL08YSSF0D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.23.32:698][902]PIE: Server logged in
+[2023.02.17-11.23.32:699][902]PIE: Play in editor total start time 0,639 seconds.
+[2023.02.17-11.23.34:304][ 11]LogShaderCompilers: Display: ================================================
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Total job queries 6363, among them cache hits 14 (0.22%)
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Tracking 6346 distinct input hashes that result in 4572 distinct outputs (72.05%)
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: RAM used: 38.03 MB (0.04 GB) of 3276.80 MB (3.20 GB) budget. Usage: 1.16%
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Shaders Compiled: 6346
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Jobs assigned 6349, completed 6346 (99.95%)
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Average time worker was idle: 10.85 s
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Time job spent in pending queue: average 176.43 s, longest 358.83 s
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Job execution time: average 5.16 s, max 47.60 s
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Job life time (pending + execution): average 181.67 s, max 361.46
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 382.02 s
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Jobs were issued in 700 batches (only local compilation was used), average 9.07 jobs/batch
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Average processing rate: 16.61 jobs/sec
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Total thread time: 3266.83 s
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Total thread preprocess time: 195.19 s
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Percentage time preprocessing: 5.97%
+[2023.02.17-11.23.34:305][ 11]LogShaderCompilers: Display: Effective parallelization: 8.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.04 sec, max 7.41 sec, min 4.39 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.94 sec, max 7.95 sec, min 2.14 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                                   FCloudRenderViewPS000false (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.26 sec, max 4.22 sec, min 1.35 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.44% of total time (compiled  150 times, average 1.84 sec, max 2.50 sec, min 1.56 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                                                   FTonemapCS - 3.54% of total time (compiled  420 times, average 0.27 sec, max 0.34 sec, min 0.23 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 3.44% of total time (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 3.16% of total time (compiled  256 times, average 0.40 sec, max 0.59 sec, min 0.29 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 2.84% of total time (compiled  128 times, average 0.72 sec, max 1.09 sec, min 0.46 sec)
+[2023.02.17-11.23.34:306][ 11]LogShaderCompilers: Display: ================================================
+[2023.02.17-11.23.36:686][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.17-11.23.36:686][276]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Gold
+[2023.02.17-11.23.36:705][276]LogWorld: UWorld::CleanupWorld for Gold, bSessionEnded=true, bCleanupResources=true
+[2023.02.17-11.23.36:706][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.17-11.23.36:706][276]LogContentBundle: [Container: Gold] Deleting container.
+[2023.02.17-11.23.36:710][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.17-11.23.36:715][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.17-11.23.42:352][276]LogMeshUtilities: Finished distance field build in 9.8s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 39% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.42:625][276]LogMeshUtilities: Finished distance field build in 10.1s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.42:688][276]LogMeshUtilities: Finished distance field build in 10.1s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.43:561][276]LogMeshUtilities: Finished distance field build in 11.0s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.43:705][276]LogMeshUtilities: Finished distance field build in 11.1s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 47% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.43:966][276]LogMeshUtilities: Finished distance field build in 11.4s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.44:000][276]LogMeshUtilities: Finished distance field build in 11.4s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.44:502][276]LogMeshUtilities: Finished distance field build in 11.9s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.47:129][276]LogMeshUtilities: Finished distance field build in 2.8s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.47:626][276]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 63% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.23.47:629][276]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.17-11.23.47:629][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.02.17-11.23.47:631][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.02.17-11.23.47:635][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.17-11.23.47:650][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.02.17-11.23.47:698][277]LogAutomationController: Ignoring very large delta of 11.05 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.17-11.23.47:698][277]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.02.17-11.25.45:262][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.02.17-11.25.45:265][897]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.011
+[2023.02.17-11.26.26:489][119]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.17-11.26.26:490][119]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.17-11.26.26:490][119]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.17-11.26.33:759][119]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.02.17-11.26.33:780][119]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.02.17-11.26.33:787][119]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.02.17-11.26.33:790][120]LogAutomationController: Ignoring very large delta of 7.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.17-11.26.33:798][120]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.02.17-11.26.37:201][509]LogContentBrowser: Attempting asset rename: NewBlueprint -> Player
+[2023.02.17-11.26.37:208][509]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.02.17-11.26.40:933][904]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player.Player_C
+[2023.02.17-11.26.40:933][904]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player.Player_C
+[2023.02.17-11.26.40:934][904]LogActorFactory: Actor Factory spawned Blueprint /Game/Player.Player as actor: Player_C /Game/Gold.Gold:PersistentLevel.Player_C_0
+[2023.02.17-11.26.40:934][904]LogActorFactory: Actor Factory spawned Blueprint /Game/Player.Player as actor: Player_C /Game/Gold.Gold:PersistentLevel.Player_C_0
+[2023.02.17-11.26.40:938][905]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.02.17-11.26.41:551][973]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player.Player_C
+[2023.02.17-11.26.41:551][973]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Player.Player_C
+[2023.02.17-11.26.41:554][973]LogActorFactory: Actor Factory spawned Blueprint /Game/Player.Player as actor: Player_C /Game/Gold.Gold:PersistentLevel.Player_C_UAID_A85E451584C66E6701_1795099287
+[2023.02.17-11.26.41:554][973]LogActorFactory: Actor Factory spawned Blueprint /Game/Player.Player as actor: Player_C /Game/Gold.Gold:PersistentLevel.Player_C_UAID_A85E451584C66E6701_1795099287
+[2023.02.17-11.26.52:114][ 92]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.17-11.26.52:123][ 92]LogContentBundle: [Container: Gold] Generating Streaming for 0 Content Bundles.
+[2023.02.17-11.26.52:126][ 92]LogWorldPartition: Display: GenerateStreaming started...
+[2023.02.17-11.26.52:126][ 92]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.02.17-11.26.52:126][ 92]LogWorldPartition: Display: GetPartitionedActors took 29 us (total: 68 us)
+[2023.02.17-11.26.52:245][ 92]LogWorldPartition: Display: GenerateStreaming took 118 ms (total: 241 ms)
+[2023.02.17-11.26.52:248][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.17-11.26.52:248][ 92]PIE: New page: PIE session: Gold (17 feb. 2023 13:26:52)
+[2023.02.17-11.26.52:283][ 92]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gold
+[2023.02.17-11.26.52:299][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015839s)
+[2023.02.17-11.26.52:299][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gold.Gold to /Game/UEDPIE_0_Gold.Gold (0.015873s)
+[2023.02.17-11.26.52:299][ 92]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.17-11.26.52:300][ 92]LogAIModule: Creating AISystem for world Gold
+[2023.02.17-11.26.52:300][ 92]LogWorldPartition: ULevel::OnLevelLoaded(Gold)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.02.17-11.26.52:300][ 92]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.02.17-11.26.52:300][ 92]LogWorldPartition: UWorldPartition::Initialize(Asset=Gold, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.02.17-11.26.52:304][ 92]LogContentBundle: [Container: Gold] Creating new contrainer.
+[2023.02.17-11.26.52:304][ 92]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 766 ms)
+[2023.02.17-11.26.52:304][ 92]LogPlayLevel: PIE: World Init took: (0.004615s)
+[2023.02.17-11.26.52:310][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.02.17-11.26.52:311][ 92]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.02.17-11.26.52:311][ 92]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.17-11.26.52:311][ 92]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.17-11.26.52:311][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.17-11.26.52:311][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.17-11.26.52:311][ 92]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.17-11.26.52:311][ 92]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.17-11.26.52:311][ 92]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.17-11.26.52:311][ 92]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.17-11.26.52:311][ 92]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.17-11.26.52:311][ 92]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.17-11.26.52:311][ 92]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.17-11.26.52:313][ 92]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.17-11.26.52:337][ 92]LogAudioMixer: Display: Using Audio Hardware Device VG27B (NVIDIA High Definition Audio)
+[2023.02.17-11.26.52:338][ 92]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.17-11.26.52:338][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.17-11.26.52:338][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.17-11.26.52:339][ 92]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.02.17-11.26.52:339][ 92]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.02.17-11.26.52:340][ 92]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.02.17-11.26.52:340][ 92]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.02.17-11.26.52:340][ 92]LogInit: FAudioDevice initialized.
+[2023.02.17-11.26.52:340][ 92]LogAudio: Display: Audio Device (ID: 3) registered with world 'Gold'.
+[2023.02.17-11.26.52:343][ 92]LogLoad: Game class is 'GameModeBase'
+[2023.02.17-11.26.52:343][ 92]LogWorld: Bringing World /Game/UEDPIE_0_Gold.Gold up for play (max tick rate 0) at 2023.02.17-12.26.52
+[2023.02.17-11.26.52:343][ 92]LogWorld: Bringing up level for play took: 0.000605
+[2023.02.17-11.26.52:345][ 92]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.02.17-11.26.52:346][ 92]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-6772.191 Y=-783.919 Z=232.580
+[2023.02.17-11.26.52:346][ 92]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(40), CellsToLoad(0), CellsToUnload(0)
+[2023.02.17-11.26.52:346][ 92]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-6772.191 Y=-783.919 Z=232.580,P=0.000000 Y=39.387846 R=-0.000000
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/TB/9HBUIQZHV6I4NDVM0205ZE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/SR/159NQCXMY2MVDLWDE396GH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/KQ/5NTBLXWTKYK8THHKX2V247.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/JK/PN8Z8I1JS5WILPM6A370IB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/JH/P4Q9W3OAEZ2H6NMJM3PIVH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/E7/5P55EOS9NUVBWRSRUQHFFG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/7P/9VQZNHXFO18A4UZDZKXPAV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/66/LXCGJT890NJL5Y5QYMZSMK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/E/0L/KXXW0VA2DJA21HGZWWUEPP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/W9/RXCWL0UB60M5AB8XIL3DSD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/W0/674BH3G0T2LNE57IP6LBZE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/RC/XC9QEFH37ELXMK50D9YXQT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/L1/A54JHY8YY6XQXI19P8WLPG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/D/GK/6UB54MJQ8ZI7HOWNTHH21U.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/C/UV/44J0UP3LA3YGRRWYXTM5QN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/C/PK/99NAITE15D3RSEYRUGTV64.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/C/KF/EIO3Z536E3Q7I1YC4DDNTJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/B/N7/4O6FRF37YDUZQNW7TSCU3Q.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/B/L3/K7PMU23JKKRV7JIWZ4X0VS.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/O6/16NBESWTQ6PVPNQB93O8SE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/MD/R6RYK59PJ8K7CLY0JA1DQ5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/MB/NP9KPJ6AQPN7KROR2XQ0V6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/FN/V7ZMMQZFKKKLKNGYRQIAEJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/CJ/O2TRGQCVVRNGV01W0BC17D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/A/3N/GBDJFN9IZ8X40WTUKTOBAT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/9/T5/CXH9JORAIAUE99A24MWYX7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/9/SH/MPWNCXYQKP600MP5V4L4X1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/9/8X/UMT7PSNL1BLHZZE2LWFTIN.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/XW/755DTGHXK4LQZ09Y5G7DD3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/LE/6CLPVKHK1FCWSMZK2BZXJB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/HI/OMA27F6ZUM88R5QS4EVHM3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/C8/EKG9JLU3OOIHNHAXH2209Z.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/8/AH/WLLHSAMR8ARDDUAHP3UTD9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/7/ZE/4LP83XVAV5F432WR77PA04.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/7/20/OCEW041P8X6KOCR36W3815.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/6/Z1/4NWE6IRVEYUMEPUKAF3U6S.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/6/SV/7GWT6G5R4EV14N9MLU09BC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/6/M9/26F9XZJ7M0F9F3K52SEKJ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/6/EK/XNTH4RE9PZJA2J65WFJK9N.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/VZ/15140KZVAXP39733FPC28J.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:449][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/V9/S2IV37UFC9K0XFQ3H4V1B6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/JA/UWWD5F96276BW7J2SL7IZG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/BH/WPTAJTCPZV9DF0KN4P3L88.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/5/2I/ZK9BLJL08YK5KSJHVBLSPR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/X0/QDO0JDX4CXSBVQCRXB2I4F.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/UV/JOGDP3P16FA1WVN9FSOS6C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/OX/3K14JDUJWLSLX1UHY4UWGO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/F2/790M9H93JE69N0DYXMFSX0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/4/B5/NW17W94H24TNI8Z2VEGMO4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/PS/D795P5EFGCS8RXQAOUTNNE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/K2/RR59EDUXZ4F4XGJCJ4PYVK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/H9/D6UAEADX52NHISZH9QZQQQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/8J/T9AZUU1GZ8PUW0VGN30IG3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/3/3V/482FXDBTZ6AZXC3BX9KGBS.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/2/AS/I5J1RTTQK2Y3E9FIMFX5JP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/2/18/N3SSWLS3Y60KPXXZFCBOBG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/1/R7/7Q96X3LNSE5CYS0EQYD3FM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/1/46/IE5QN3RYG8FOT4GNYMO6JJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/1/3S/8NY4F0881BBXWFBH8NVMZ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/XN/2LHWVXGSHP8KJ6ZPQJW9A0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/TQ/AW39JJMC62XEF242SVZ05H.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/LU/V1V5S6MK4WVL3K8QYR7YK4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/KH/Y10XTACH0HUBOMIZJ8633N.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:450][ 92]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Gold/0/FI/XM8F4XUBWZIXDL08YSSF0D.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.02.17-11.26.52:495][ 92]LogStreaming: Display: FlushAsyncLoading(-1): 39 QueuedPackages, 0 AsyncPackages
+[2023.02.17-11.26.52:680][ 92]LogTexture: Display: Waiting for textures to be ready 0/468 (/Memory/UEDPIE_0_MainGrid_L0_X-4_Y1_DL0_InstanceOf_/Game/__ExternalActors__/Gold/7/BM/MXVH8SPVWYUORVY4WEXHYH) ...
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: ================================================
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: Total job queries 6367, among them cache hits 18 (0.28%)
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: Tracking 6349 distinct input hashes that result in 4575 distinct outputs (72.06%)
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: RAM used: 38.05 MB (0.04 GB) of 3276.80 MB (3.20 GB) budget. Usage: 1.16%
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: Shaders Compiled: 6349
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: Jobs assigned 6349, completed 6349 (100.00%)
+[2023.02.17-11.26.52:685][ 92]LogShaderCompilers: Display: Average time worker was idle: 10.85 s
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Time job spent in pending queue: average 176.43 s, longest 358.83 s
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Job execution time: average 5.16 s, max 47.60 s
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Job life time (pending + execution): average 181.58 s, max 361.46
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 382.93 s
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Jobs were issued in 700 batches (only local compilation was used), average 9.07 jobs/batch
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Average processing rate: 16.58 jobs/sec
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Total thread time: 3270.72 s
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Total thread preprocess time: 195.58 s
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Percentage time preprocessing: 5.98%
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Effective parallelization: 8.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.04 sec, max 7.41 sec, min 4.39 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.94 sec, max 7.95 sec, min 2.14 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                                   FCloudRenderViewPS000false (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.26 sec, max 4.22 sec, min 1.35 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.43% of total time (compiled  150 times, average 1.84 sec, max 2.50 sec, min 1.56 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                                                   FTonemapCS - 3.53% of total time (compiled  420 times, average 0.27 sec, max 0.34 sec, min 0.23 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 3.44% of total time (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 3.16% of total time (compiled  256 times, average 0.40 sec, max 0.59 sec, min 0.29 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 2.84% of total time (compiled  128 times, average 0.72 sec, max 1.09 sec, min 0.46 sec)
+[2023.02.17-11.26.52:686][ 92]LogShaderCompilers: Display: ================================================
+[2023.02.17-11.27.01:427][ 92]LogMeshUtilities: Finished distance field build in 8.9s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 39% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.01:581][ 92]PIE: Server logged in
+[2023.02.17-11.27.01:582][ 92]PIE: Play in editor total start time 9,46 seconds.
+[2023.02.17-11.27.01:661][ 93]LogAutomationController: Ignoring very large delta of 9.56 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.17-11.27.01:957][ 93]LogMeshUtilities: Finished distance field build in 9.5s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.02:279][101]LogMeshUtilities: Finished distance field build in 9.8s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.02:919][162]LogMeshUtilities: Finished distance field build in 10.4s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 47% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.02:967][168]LogMeshUtilities: Finished distance field build in 10.5s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.03:352][213]LogMeshUtilities: Finished distance field build in 10.9s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.03:380][216]LogMeshUtilities: Finished distance field build in 10.9s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.03:993][289]LogMeshUtilities: Finished distance field build in 11.5s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.06:634][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.17-11.27.06:634][601]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Gold
+[2023.02.17-11.27.06:652][601]LogWorld: UWorld::CleanupWorld for Gold, bSessionEnded=true, bCleanupResources=true
+[2023.02.17-11.27.06:652][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.17-11.27.06:652][601]LogContentBundle: [Container: Gold] Deleting container.
+[2023.02.17-11.27.06:657][601]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.17-11.27.06:661][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.17-11.27.08:225][601]LogMeshUtilities: Finished distance field build in 4.5s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.09:538][601]LogMeshUtilities: Finished distance field build in 5.8s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 66% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.09:679][601]LogMeshUtilities: Finished distance field build in 6.0s - 126x126x126 sparse distance field, 2.4Mb total, 0.1Mb always loaded, 69% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.12:554][601]LogMeshUtilities: Finished distance field build in 3.0s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 63% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.15:799][601]LogMeshUtilities: Finished distance field build in 4.7s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 48% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.16:121][601]LogMeshUtilities: Finished distance field build in 5.0s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.16:527][601]LogMeshUtilities: Finished distance field build in 5.4s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 67% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.19:428][601]LogMeshUtilities: Finished distance field build in 3.0s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.20:094][601]LogMeshUtilities: Finished distance field build in 1.8s - 126x126x28 sparse distance field, 0.7Mb total, 0.0Mb always loaded, 100% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.20:603][601]LogMeshUtilities: Finished distance field build in 2.3s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 42% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.02.17-11.27.20:607][601]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.17-11.27.20:609][601]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.02.17-11.27.20:611][601]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.02.17-11.27.20:615][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.17-11.27.20:626][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.02.17-11.27.20:647][602]LogAutomationController: Ignoring very large delta of 14.05 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.17-11.27.20:648][602]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.02.17-11.27.39:998][622]LogViewport: Scene viewport resized to 1016x1262, mode Windowed.
+[2023.02.17-11.27.41:143][735]LogViewport: Scene viewport resized to 1024x1262, mode Windowed.
+[2023.02.17-11.27.41:194][737]LogViewport: Scene viewport resized to 1103x1262, mode Windowed.
+[2023.02.17-11.27.41:226][738]LogViewport: Scene viewport resized to 1199x1262, mode Windowed.
+[2023.02.17-11.27.41:310][740]LogViewport: Scene viewport resized to 1408x1262, mode Windowed.
+[2023.02.17-11.27.41:367][742]LogViewport: Scene viewport resized to 1482x1262, mode Windowed.
+[2023.02.17-11.27.41:435][744]LogViewport: Scene viewport resized to 1531x1262, mode Windowed.
+[2023.02.17-11.27.41:504][746]LogViewport: Scene viewport resized to 1551x1262, mode Windowed.
+[2023.02.17-11.27.41:548][748]LogViewport: Scene viewport resized to 1573x1262, mode Windowed.
+[2023.02.17-11.27.41:614][750]LogViewport: Scene viewport resized to 1594x1262, mode Windowed.
+[2023.02.17-11.27.41:658][752]LogViewport: Scene viewport resized to 1604x1262, mode Windowed.
+[2023.02.17-11.27.41:903][778]LogViewport: Scene viewport resized to 1606x1262, mode Windowed.
+[2023.02.17-11.27.41:945][780]LogViewport: Scene viewport resized to 1610x1262, mode Windowed.
+[2023.02.17-11.27.41:987][782]LogViewport: Scene viewport resized to 1617x1262, mode Windowed.
+[2023.02.17-11.27.42:083][790]LogViewport: Scene viewport resized to 1628x1262, mode Windowed.
+[2023.02.17-11.27.42:126][792]LogViewport: Scene viewport resized to 1632x1262, mode Windowed.
+[2023.02.17-11.27.42:174][794]LogViewport: Scene viewport resized to 1642x1262, mode Windowed.
+[2023.02.17-11.27.42:217][796]LogViewport: Scene viewport resized to 1655x1262, mode Windowed.
+[2023.02.17-11.27.42:258][798]LogViewport: Scene viewport resized to 1666x1262, mode Windowed.
+[2023.02.17-11.27.42:319][800]LogViewport: Scene viewport resized to 1669x1262, mode Windowed.
+[2023.02.17-11.27.42:824][857]LogViewport: Scene viewport resized to 1668x1262, mode Windowed.
+[2023.02.17-11.27.42:866][859]LogViewport: Scene viewport resized to 1657x1262, mode Windowed.
+[2023.02.17-11.27.42:908][861]LogViewport: Scene viewport resized to 1642x1262, mode Windowed.
+[2023.02.17-11.27.42:951][863]LogViewport: Scene viewport resized to 1633x1262, mode Windowed.
+[2023.02.17-11.27.43:060][873]LogViewport: Scene viewport resized to 1627x1262, mode Windowed.
+[2023.02.17-11.27.43:118][877]LogViewport: Scene viewport resized to 1624x1262, mode Windowed.
+[2023.02.17-11.27.43:159][879]LogViewport: Scene viewport resized to 1618x1262, mode Windowed.
+[2023.02.17-11.29.15:084][948]Cmd: SELECT NONE
+[2023.02.17-11.30.10:317][611]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.02.17-11.30.14:381][ 10]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.02.17-11.30.19:230][498]Cmd: SELECT NONE
+[2023.02.17-11.31.39:601][248]Cmd: MODE GRID=0
+[2023.02.17-11.31.53:122][586]Cmd: MODE GRID=1
+[2023.02.17-11.32.11:988][497]Cmd: MODE GRID=0
+[2023.02.17-11.32.17:084][ 36]Cmd: TRANSACTION UNDO
+[2023.02.17-11.32.17:085][ 36]LogEditorTransaction: Undo Move Elements
+[2023.02.17-11.32.20:181][268]Cmd: TRANSACTION UNDO
+[2023.02.17-11.32.20:181][268]LogEditorTransaction: Undo Move Elements
+[2023.02.17-11.32.25:401][793]Cmd: TRANSACTION UNDO
+[2023.02.17-11.32.25:402][793]LogEditorTransaction: Undo Move Elements
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: ================================================
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Total job queries 6373, among them cache hits 18 (0.28%)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Tracking 6350 distinct input hashes that result in 4576 distinct outputs (72.06%)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: RAM used: 38.05 MB (0.04 GB) of 3276.80 MB (3.20 GB) budget. Usage: 1.16%
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Shaders Compiled: 6350
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Jobs assigned 6355, completed 6350 (99.92%)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Average time worker was idle: 20.26 s
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Time job spent in pending queue: average 176.26 s, longest 358.83 s
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Job execution time: average 5.16 s, max 47.60 s
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Job life time (pending + execution): average 181.56 s, max 361.46
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 383.65 s
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Jobs were issued in 706 batches (only local compilation was used), average 9.00 jobs/batch
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Average processing rate: 16.55 jobs/sec
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Total thread time: 3271.17 s
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Total thread preprocess time: 195.62 s
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Percentage time preprocessing: 5.98%
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Effective parallelization: 8.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.04 sec, max 7.41 sec, min 4.39 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.94 sec, max 7.95 sec, min 2.14 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                                   FCloudRenderViewPS000false (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.26 sec, max 4.22 sec, min 1.35 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.43% of total time (compiled  150 times, average 1.84 sec, max 2.50 sec, min 1.56 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                                                   FTonemapCS - 3.53% of total time (compiled  420 times, average 0.27 sec, max 0.34 sec, min 0.23 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 3.44% of total time (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 3.16% of total time (compiled  256 times, average 0.40 sec, max 0.59 sec, min 0.29 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 2.84% of total time (compiled  128 times, average 0.72 sec, max 1.09 sec, min 0.46 sec)
+[2023.02.17-11.32.27:594][916]LogShaderCompilers: Display: ================================================
+[2023.02.17-11.32.29:606][ 60]Cmd: TRANSACTION UNDO
+[2023.02.17-11.32.29:606][ 60]LogEditorTransaction: Undo Rotate Elements
+[2023.02.17-11.32.31:807][217]Cmd: MODE ROTGRID=0
+[2023.02.17-11.32.33:411][346]Cmd: TRANSACTION UNDO
+[2023.02.17-11.32.33:411][346]LogEditorTransaction: Undo Rotate Elements
+[2023.02.17-11.32.34:156][382]Cmd: MODE ROTGRID=1
+[2023.02.17-11.32.46:626][484]Cmd: TRANSACTION UNDO
+[2023.02.17-11.32.46:626][484]LogEditorTransaction: Undo Scale Elements
+[2023.02.17-11.32.51:334][855]Cmd: MODE SCALEGRID=0
+[2023.02.17-11.32.53:118][ 33]Cmd: TRANSACTION UNDO
+[2023.02.17-11.32.53:118][ 33]LogEditorTransaction: Undo Scale Elements
+[2023.02.17-11.32.54:111][ 89]Cmd: MODE SCALEGRID=1
+[2023.02.17-11.32.59:600][610]Cmd: TRANSACTION UNDO
+[2023.02.17-11.32.59:600][610]LogEditorTransaction: Undo Scale Elements
+[2023.02.17-11.33.03:959][962]Cmd: TRANSACTION UNDO
+[2023.02.17-11.33.03:959][962]LogEditorTransaction: Undo Scale Elements
+[2023.02.17-11.33.06:849][177]Cmd: TRANSACTION UNDO
+[2023.02.17-11.33.06:849][177]LogEditorTransaction: Undo Scale Elements
+[2023.02.17-11.33.08:238][304]Cmd: TRANSACTION UNDO
+[2023.02.17-11.33.08:239][304]LogEditorTransaction: Undo Scale Elements
+[2023.02.17-11.33.09:102][348]Cmd: TRANSACTION UNDO
+[2023.02.17-11.33.09:102][348]LogEditorTransaction: Undo Scale Elements
+[2023.02.17-11.33.11:024][507]Cmd: TRANSACTION UNDO
+[2023.02.17-11.33.11:024][507]LogEditorTransaction: Undo Scale Elements
+[2023.02.17-11.33.14:769][865]Cmd: SELECT NONE
+[2023.02.17-11.33.23:701][852]Cmd: SELECT NONE
+[2023.02.17-11.33.50:352][995]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (HyperX Cloud II Wireless), InstanceID=1
+[2023.02.17-11.33.50:474][995]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21804
+[2023.02.17-11.33.50:808][996]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{10f1e11e-7699-4793-a4e6-4cd6762f2ae8}, Name=Speakers (HyperX Cloud II Wireless)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=19.08
+[2023.02.17-11.33.50:808][996]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.17-11.33.50:809][996]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.17-11.36.00:685][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.02.17-11.36.00:687][921]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.008
+[2023.02.17-11.44.31:589][ 55]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.02.17-11.44.31:589][ 55]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.02.17-11.44.31:591][ 55]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Gold.Gold:PersistentLevel.StaticMeshActor_UAID_A85E451584C66F6701_1791395464
+[2023.02.17-11.44.31:594][ 55]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Gold.Gold:PersistentLevel.StaticMeshActor_UAID_A85E451584C66F6701_1791395464
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: ================================================
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Total job queries 6385, among them cache hits 26 (0.41%)
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Tracking 6356 distinct input hashes that result in 4582 distinct outputs (72.09%)
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: RAM used: 38.08 MB (0.04 GB) of 3276.80 MB (3.20 GB) budget. Usage: 1.16%
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Shaders Compiled: 6356
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Jobs assigned 6359, completed 6356 (99.95%)
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Average time worker was idle: 24.27 s
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Time job spent in pending queue: average 176.15 s, longest 358.83 s
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Job execution time: average 5.15 s, max 47.60 s
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Job life time (pending + execution): average 181.39 s, max 361.46
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 384.92 s
+[2023.02.17-11.44.32:397][ 88]LogShaderCompilers: Display: Jobs were issued in 710 batches (only local compilation was used), average 8.96 jobs/batch
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display: Average processing rate: 16.51 jobs/sec
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display: Total thread time: 3275.39 s
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display: Total thread preprocess time: 195.89 s
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display: Percentage time preprocessing: 5.98%
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display: Effective parallelization: 8.51 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.04 sec, max 7.41 sec, min 4.39 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.94 sec, max 7.95 sec, min 2.14 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                                   FCloudRenderViewPS000false (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.26 sec, max 4.22 sec, min 1.35 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.42% of total time (compiled  150 times, average 1.84 sec, max 2.50 sec, min 1.56 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                                                   FTonemapCS - 3.53% of total time (compiled  420 times, average 0.27 sec, max 0.34 sec, min 0.23 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 3.44% of total time (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 3.15% of total time (compiled  256 times, average 0.40 sec, max 0.59 sec, min 0.29 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 2.83% of total time (compiled  128 times, average 0.72 sec, max 1.09 sec, min 0.46 sec)
+[2023.02.17-11.44.32:398][ 88]LogShaderCompilers: Display: ================================================
+[2023.02.17-11.44.40:518][716]Cmd: DELETE
+[2023.02.17-11.44.40:518][716]Cmd: ACTOR DELETE
+[2023.02.17-11.44.40:521][716]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.02.17-11.44.40:528][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.02.17-11.44.40:530][716]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.02.17-11.45.11:345][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.17-11.45.11:382][581]LogWorldPartition: Actor /Game/Gold.Gold:PersistentLevel.StaticMeshActor_UAID_A85E451584C66F6701_1791395464 is unreachable without properly detaching object /Game/__ExternalActors__/Gold/D/78/VBUS0KC3LXLDHVO577Q7G6.PackageMetaData in its package
+[2023.02.17-11.45.11:383][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.02.17-11.45.11:389][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.02.17-11.45.11:395][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.02.17-11.45.11:400][581]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Gold/B/HG/QWLIQYNHN0ID9GQYFBVMI8
+[2023.02.17-11.45.11:400][581]LogSavePackage: Moving '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Saved/QWLIQYNHN0ID9GQYFBVMI8CBD3BA4C4CC92ACD87E1B1844AEB18AA.tmp' to '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/Gold/B/HG/QWLIQYNHN0ID9GQYFBVMI8.uasset'
+[2023.02.17-11.45.11:417][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 2.43 sec)
+[2023.02.17-11.45.11:420][581]AssetCheck: New page: Asset Save: Player_C_UAID_A85E451584C66E6701_1795099287
+[2023.02.17-11.45.11:420][581]LogContentValidation: Display: Validating /Game/Player.Player_C /Game/Gold.Gold:PersistentLevel.Player_C_UAID_A85E451584C66E6701_1795099287
+[2023.02.17-11.45.11:427][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.02.17-11.46.01:355][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.17-11.46.01:357][503]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.008
+[2023.02.17-11.49.24:500][113]LogDerivedDataCache: C:/Users/rossi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.056 and deleted 0 files with total size 0 MiB. Scanned 1626 files in 1619 folders with total size 43 MiB.
+[2023.02.17-11.50.32:277][ 54]Cmd: DELETE
+[2023.02.17-11.50.32:277][ 54]Cmd: ACTOR DELETE
+[2023.02.17-11.50.32:279][ 54]LogEditorActor: Deleted Actor: Player_C
+[2023.02.17-11.50.32:287][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.02.17-11.50.32:289][ 54]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.02.17-11.50.35:266][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.02.17-11.50.38:170][346]LogSlate: Window 'Delete Assets' being destroyed
+[2023.02.17-11.50.38:193][346]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Player.Player
+	Asset Type: Blueprint
+[2023.02.17-11.50.38:478][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.02.17-11.50.38:485][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.02.17-11.50.38:491][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.02.17-11.50.38:503][347]LogAutomationController: Ignoring very large delta of 3.25 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.17-11.56.02:082][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.02.17-11.56.02:084][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gold" FILE="../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Saved/Autosaves/Game/Gold_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.02.17-11.56.02:089][292]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Gold_Auto1
+[2023.02.17-11.56.02:089][292]LogSavePackage: Moving '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Saved/Gold_Auto1ACBF024742D2908E9FF4D0BB904CA0D8.tmp' to '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Saved/Autosaves/Game/Gold_Auto1.umap'
+[2023.02.17-11.56.02:093][292]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.016
+[2023.02.17-11.56.02:093][292]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.016
+[2023.02.17-12.06.09:786][243]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.02.17-12.06.15:667][501]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/UE/UE_5.1/FeaturePacks/TP_ThirdPersonBP.upack)
+[2023.02.17-12.06.15:711][501]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2023.02.17-12.06.15:712][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Maps/ThirdPersonMap.umap" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
+[2023.02.17-12.06.15:715][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset"
+[2023.02.17-12.06.15:715][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/IMC_Default.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Input/IMC_Default.uasset"
+[2023.02.17-12.06.15:716][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+[2023.02.17-12.06.15:717][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset"
+[2023.02.17-12.06.15:718][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Jump.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Input/Actions/IA_Jump.uasset"
+[2023.02.17-12.06.15:718][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Look.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Input/Actions/IA_Look.uasset"
+[2023.02.17-12.06.15:719][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/ThirdPerson/Input/Actions/IA_Move.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Input/Actions/IA_Move.uasset"
+[2023.02.17-12.06.15:720][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset"
+[2023.02.17-12.06.15:721][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset"
+[2023.02.17-12.06.15:722][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset"
+[2023.02.17-12.06.15:722][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset"
+[2023.02.17-12.06.15:723][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset"
+[2023.02.17-12.06.15:724][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset"
+[2023.02.17-12.06.15:725][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset"
+[2023.02.17-12.06.15:726][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset"
+[2023.02.17-12.06.15:726][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset"
+[2023.02.17-12.06.15:727][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset"
+[2023.02.17-12.06.15:728][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/9/KN/KHZG97SS6AL73U7AXDWH6J.uasset"
+[2023.02.17-12.06.15:729][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset"
+[2023.02.17-12.06.15:730][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/D8/3MZ6M1DB94VN44C87D65WR.uasset"
+[2023.02.17-12.06.15:731][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/6/TK/PIQ0B2FNWR15P52TECP27A.uasset"
+[2023.02.17-12.06.15:732][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset"
+[2023.02.17-12.06.15:732][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset"
+[2023.02.17-12.06.15:733][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset"
+[2023.02.17-12.06.15:734][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset"
+[2023.02.17-12.06.15:735][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset"
+[2023.02.17-12.06.15:735][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset"
+[2023.02.17-12.06.15:736][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset"
+[2023.02.17-12.06.15:736][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset"
+[2023.02.17-12.06.15:737][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset"
+[2023.02.17-12.06.15:738][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset"
+[2023.02.17-12.06.15:739][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset"
+[2023.02.17-12.06.15:740][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset"
+[2023.02.17-12.06.15:741][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/VW/TY7TSUER9KKGHX2BMKSL0L.uasset"
+[2023.02.17-12.06.15:741][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset"
+[2023.02.17-12.06.15:742][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset"
+[2023.02.17-12.06.15:743][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset"
+[2023.02.17-12.06.15:744][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset"
+[2023.02.17-12.06.15:744][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset"
+[2023.02.17-12.06.15:745][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset"
+[2023.02.17-12.06.15:746][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset"
+[2023.02.17-12.06.15:747][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/C/7N/FDH7Y28CQFXDK8P6MM1HXM.uasset"
+[2023.02.17-12.06.15:748][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset"
+[2023.02.17-12.06.15:749][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset"
+[2023.02.17-12.06.15:749][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset"
+[2023.02.17-12.06.15:750][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset"
+[2023.02.17-12.06.15:751][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset"
+[2023.02.17-12.06.15:752][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset"
+[2023.02.17-12.06.15:753][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset"
+[2023.02.17-12.06.15:753][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset"
+[2023.02.17-12.06.15:754][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset"
+[2023.02.17-12.06.15:755][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset"
+[2023.02.17-12.06.15:756][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset"
+[2023.02.17-12.06.15:756][501]LogPackFactory: Copied "../../../Templates/TP_ThirdPersonBP/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset" to "../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/E/GP/22PD314FCWY4ZK61DE3XZC.uasset"
+[2023.02.17-12.06.15:805][501]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.17-12.06.15:881][501]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap_BuiltData
+[2023.02.17-12.06.15:882][501]LogSavePackage: Moving '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Saved/ThirdPersonMap_BuiltData2E6AE0574D18353CD1B79688DADA67F8.tmp' to '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset'
+[2023.02.17-12.06.15:891][501]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 2.52 sec)
+[2023.02.17-12.06.16:342][501]AssetCheck: New page: Asset Save: ThirdPersonMap_BuiltData
+[2023.02.17-12.06.16:342][501]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/ThirdPerson/Maps/ThirdPersonMap_BuiltData.ThirdPersonMap_BuiltData
+[2023.02.17-12.06.20:797][847]LogSlate: Window 'Content Browser' being destroyed
+[2023.02.17-12.06.20:811][847]LogSlate: Window 'Content Browser' being destroyed
+[2023.02.17-12.06.27:253][155]LogSlate: Window 'Add Content to the Project' being destroyed
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: ================================================
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Total job queries 6399, among them cache hits 26 (0.41%)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Tracking 6364 distinct input hashes that result in 4584 distinct outputs (72.03%)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: RAM used: 38.13 MB (0.04 GB) of 3276.80 MB (3.20 GB) budget. Usage: 1.16%
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Shaders Compiled: 6364
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Jobs assigned 6372, completed 6364 (99.87%)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Average time worker was idle: 49.00 s
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Time job spent in pending queue: average 175.79 s, longest 358.83 s
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Job execution time: average 5.15 s, max 47.60 s
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Job life time (pending + execution): average 181.16 s, max 361.46
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 387.18 s
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Jobs were issued in 723 batches (only local compilation was used), average 8.81 jobs/batch
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Average processing rate: 16.44 jobs/sec
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Total thread time: 3280.20 s
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Total thread preprocess time: 196.21 s
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Percentage time preprocessing: 5.98%
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Effective parallelization: 8.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.04 sec, max 7.41 sec, min 4.39 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.94 sec, max 7.95 sec, min 2.14 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                                   FCloudRenderViewPS000false (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.26 sec, max 4.22 sec, min 1.35 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.41% of total time (compiled  150 times, average 1.84 sec, max 2.50 sec, min 1.56 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                                                   FTonemapCS - 3.52% of total time (compiled  420 times, average 0.27 sec, max 0.34 sec, min 0.23 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 3.43% of total time (compiled    6 times, average 18.75 sec, max 44.76 sec, min 3.14 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 3.15% of total time (compiled  256 times, average 0.40 sec, max 0.59 sec, min 0.29 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 2.83% of total time (compiled  128 times, average 0.72 sec, max 1.09 sec, min 0.46 sec)
+[2023.02.17-12.06.36:559][614]LogShaderCompilers: Display: ================================================
+[2023.02.17-12.06.41:952][788]Cmd: SELECT NONE
+[2023.02.17-12.06.45:045][103]Cmd: SELECT NONE
+[2023.02.17-12.07.20:025][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.02.17-12.07.20:027][515]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.011
+[2023.02.17-12.11.18:392][404]Cmd: SELECT NONE
+[2023.02.17-12.17.20:464][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.02.17-12.17.20:466][199]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.009
+[2023.02.17-12.27.21:153][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.02.17-12.27.21:154][  1]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Gold' took 0.008
+[2023.02.17-12.34.15:949][ 57]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.17-12.34.15:950][ 57]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.17-12.34.15:950][ 57]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.02.17-12.34.20:948][571]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.17-12.34.20:986][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.02.17-12.34.20:994][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.02.17-12.34.21:000][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.02.17-12.34.21:002][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gold" FILE="../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/Gold.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.17-12.34.21:009][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.02.17-12.34.21:014][571]LogSavePackage: Moving output files for package: /Game/Gold
+[2023.02.17-12.34.21:015][571]LogSavePackage: Moving '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Saved/Gold3A7E44654A388C1C7F88EFA3D2A32221.tmp' to '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/Gold.umap'
+[2023.02.17-12.34.21:029][571]LogFileHelpers: Saving map 'Gold' took 0.027
+[2023.02.17-12.34.21:037][571]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 2.61 sec)
+[2023.02.17-12.34.21:041][571]AssetCheck: New page: Asset Save: Gold
+[2023.02.17-12.34.21:041][571]LogContentValidation: Display: Validating /Script/Engine.World /Game/Gold.Gold
+[2023.02.17-12.34.22:988][755]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2023.02.17-12.34.22:988][755]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2023.02.17-12.34.22:994][755]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/Gold.Gold:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2023.02.17-12.34.22:998][755]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/Gold.Gold:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2023.02.17-12.34.23:773][821]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2023.02.17-12.34.23:773][821]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C
+[2023.02.17-12.34.23:778][821]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/Gold.Gold:PersistentLevel.BP_ThirdPersonCharacter_C_UAID_A85E451584C6726701_1562353993
+[2023.02.17-12.34.23:782][821]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter as actor: BP_ThirdPersonCharacter_C /Game/Gold.Gold:PersistentLevel.BP_ThirdPersonCharacter_C_UAID_A85E451584C6726701_1562353993
+[2023.02.17-12.34.23:881][822]LogViewport: Scene viewport resized to 510x398, mode Windowed.
+[2023.02.17-12.34.26:788][ 18]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/Gold/B/HG/QWLIQYNHN0ID9GQYFBVMI8': Can't find file.
+[2023.02.17-12.34.26:790][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.17-12.34.26:832][ 18]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/Gold/B/HG/QWLIQYNHN0ID9GQYFBVMI8': Can't find file.
+[2023.02.17-12.34.26:832][ 18]LogLinker: Warning: Failed to load '/Game/__ExternalActors__/Gold/B/HG/QWLIQYNHN0ID9GQYFBVMI8': Can't find file.
+[2023.02.17-12.34.26:843][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.02.17-12.34.26:851][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.02.17-12.34.26:857][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.02.17-12.34.26:862][ 18]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Gold/F/1L/GCP4T228LI5XHNOLS4ULL1
+[2023.02.17-12.34.26:862][ 18]LogSavePackage: Moving '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Saved/GCP4T228LI5XHNOLS4ULL193CC718B4BCAFEF926B4E88C0ED10B4D.tmp' to '../../../../../../Users/rossi/Documents/Unreal Projects/ProjectGold/Content/__ExternalActors__/Gold/F/1L/GCP4T228LI5XHNOLS4ULL1.uasset'
+[2023.02.17-12.34.26:872][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 2.69 sec)
+[2023.02.17-12.34.26:878][ 18]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter_C_UAID_A85E451584C6726701_1562353993
+[2023.02.17-12.34.26:878][ 18]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C /Game/Gold.Gold:PersistentLevel.BP_ThirdPersonCharacter_C_UAID_A85E451584C6726701_1562353993
+[2023.02.17-12.34.28:311][ 94]Cmd: SELECT NONE
